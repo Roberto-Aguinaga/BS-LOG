@@ -1,0 +1,121 @@
+body{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+    #cuadroBlanco{
+        width: 400px;
+        height: 800px;
+        background-color: white;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        border: 2px solid white (201, 179, 179);
+        border-radius: 5px;
+        font-family: 'Raleway', Bold;
+        
+    }
+    .logintitle{
+        width: 350px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        font-family: 'Raleway', Bold;
+        /* padding: 20px 0px 20px 0px; */
+
+    }
+    .inputbox{
+        background-color: rgb(233, 232, 232);
+        width: 240px;
+        height: 40px;
+        font-size: 18px;
+        padding: 0px 30px 0px 65px;
+        border: 2px solid white (201, 179, 179);
+        border-radius: 5px;
+    }
+    /* .inputbox2{
+        width: 220px;
+        height: 40px;
+        font-size: 18px;
+        padding: 0px 30px 0px 65px; */
+        /* border: 130px 65px 130px 65px; */
+    /* } */
+    /* #checkRemember{ */
+        /* display: inline-block; */
+        /* flex-direction: row;
+        align-items: flex-start; */
+            
+    }
+    
+    #checkbox{
+        display: inline-block;       
+        outline-color: 2px solid blue;
+    }
+    #Remember{
+        display: inline-block;
+        font-size: 12px;
+    }
+    #buttonlogin{
+        background-color: rgb(123, 167, 218);
+        width: 340px;
+        height: 60px;
+        font-size: 18px;
+        border: 2px solid white;
+    }
+    #buttonlogin:hover{
+        background-color: rgb(221, 57, 112);
+        width: 340px;
+        height: 60px;
+        font-size: 18px;
+        border: 2px solid white;
+    }
+    #buttonregister{
+        background-color: rgb(212, 84, 180);
+        width: 340px;
+        height: 60px;
+        font-size: 18px;
+        border: 2px solid white;
+    }
+    #buttonregister:hover{
+        background-color: rgb(221, 57, 112);
+        width: 340px;
+        height: 60px;
+        font-size: 18px;
+        border: 2px solid white;
+    }
+    #fblogo{
+        display: inline-block;
+        height: 25px;
+        width: 80px;
+    }
+    #googlelogo{
+        display: inline-block;
+        height: 25px;
+        width: 70px;
+    }
+    #redsocial{
+        margin: 15px;
+    }
+    #member{
+        display: flex;
+        align-items: center;
+    }
+    }
+    #imag{
+        width: 400px;
+        height: 500px;
+        
+    }
+    .imagenEstilo{
+        border: 2px solid red;
+    }
